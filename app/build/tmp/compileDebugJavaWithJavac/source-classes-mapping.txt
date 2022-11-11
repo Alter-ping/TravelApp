@@ -1,0 +1,2 @@
+com/compose/googleauth/BuildConfig.java
+ com.compose.googleauth.BuildConfig

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ro\\values-ro.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\91c777de3e257a2a5e019b88c47bcd45\\transformed\\core-1.7.0\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "901",
+                        "endColumns": "100",
+                        "endOffsets": "997"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\044ce816a1ae501cb15dfb91bf143393\\transformed\\jetified-ui-1.0.1\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,240,337,415,514,605,687,759,828,901",
+                        "endColumns": "98,85,96,77,98,90,81,71,68,72,66",
+                        "endOffsets": "149,235,332,410,509,600,682,754,823,896,963"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,240,337,415,514,605,687,759,828,1002",
+                        "endColumns": "98,85,96,77,98,90,81,71,68,72,66",
+                        "endOffsets": "149,235,332,410,509,600,682,754,823,896,1064"
+                    }
+                }
+            ]
+        }
+    ]
+}
