@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.compose.travelapp.home_screen.HomeScreen
+import com.compose.travelapp.hotel_screen.HotelScreen
 import com.compose.travelapp.login_screen.LoginScreen
 import com.compose.travelapp.login_screen.LoginScreenViewModel
 import com.compose.travelapp.ui.theme.GoogleAuthTheme
@@ -35,6 +36,7 @@ fun LoginUi() {
         composable("login_screen", content = { LoginScreen(navController = navController) })
         composable("register_screen", content = { })
         composable("home_screen", content =  { HomeScreen(navController = navController) })
+        composable("hotel_screen", content =  { HotelScreen() })
     })
 }
 

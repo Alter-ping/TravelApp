@@ -149,20 +149,6 @@ fun LoginScreen(navController: NavController, viewModel: LoginScreenViewModel = 
         Row {
             Surface(
                 border = BorderStroke(1.dp, Color.DarkGray),
-                shape = RoundedCornerShape(5.dp)
-            ) {
-                Image(
-                    painter = painterResource(id = R.drawable.facebook),
-                    contentDescription = "FacebookIcon",
-                    modifier = Modifier
-                        .padding(5.dp)
-                        .width(40.dp)
-                )
-
-            }
-            Spacer(modifier = Modifier.width(6.dp))
-            Surface(
-                border = BorderStroke(1.dp, Color.DarkGray),
                 shape = RoundedCornerShape(5.dp),
                 onClick = {
                     val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -197,14 +183,27 @@ fun LoginScreen(navController: NavController, viewModel: LoginScreenViewModel = 
                 shape = RoundedCornerShape(5.dp)
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.apple),
-                    contentDescription = "AppleIcon",
+                    painter = painterResource(id = R.drawable.facebook),
+                    contentDescription = "FacebookIcon",
                     modifier = Modifier
                         .padding(5.dp)
                         .width(40.dp)
                 )
 
             }
+//            Surface(
+//                border = BorderStroke(1.dp, Color.DarkGray),
+//                shape = RoundedCornerShape(5.dp)
+//            ) {
+//                Image(
+//                    painter = painterResource(id = R.drawable.apple),
+//                    contentDescription = "AppleIcon",
+//                    modifier = Modifier
+//                        .padding(5.dp)
+//                        .width(40.dp)
+//                )
+//
+//            }
         }
         Spacer(modifier = Modifier.height(6.dp))
         Row {

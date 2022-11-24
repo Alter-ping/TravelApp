@@ -5,7 +5,7 @@
 //import androidx.lifecycle.MutableLiveData
 //import com.compose.travelapp.Utils.LoadingState
 //
-//class HotelScreenViewModel {
+//class HotelScreenViewModel() {
 //
 //    private val _loading = MutableLiveData<Boolean>()
 //    val loading: LiveData<Boolean>

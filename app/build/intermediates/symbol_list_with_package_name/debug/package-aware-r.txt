@@ -1772,6 +1772,7 @@ drawable facebook
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable hotel_booking
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
